@@ -166,7 +166,7 @@ export default {
       this.$api.user.reg(this.regParams).then(res => {
         if (res.type == "success") {
           this.$Toast("注册成功，跳转登录")
-          this.$commonFn.toUrl('Public/Login')
+          this.$router.push(`/${locale}/download`)
         } else {
           this.regParams.username = ""
           this.regParams.password = ""
