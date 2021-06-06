@@ -1,0 +1,483 @@
+/* 改变主题色变量 */
+// $--color-primary: #02AD8F;
+
+/* 改变 icon 字体路径变量，必需 */
+// $--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+// @import "~element-ui/packages/theme-chalk/src/index";
+
+#installPWA{
+  @apply hidden;
+}
+
+$null: transparent;
+$co59: #a9b3b8;
+$co1c3385: #1c3385;
+$co9CC1FF: #9CC1FF;
+$co3A53B8: #3A53B8;
+$co1D088B: #1D088B;
+$co487DC6: #487DC6;
+$co000f18: #000f18;
+$co4774f9: #4774f9;
+$codce2f2: #dce2f2;
+$co5fe9ce: #5fe9ce;
+$co1e2643: #1e2643;
+$co606d82: #606d82;
+$codbe4fe: #dbe4fe;
+$co2baf88: #02AD8F;
+$co324170: #324170;
+$co6272a1: #6272a1;
+$co0084ff: #0084ff;
+$co93a4da: #93a4da;
+$co67d852: #67d852;
+$co151b35: #151b35;
+$co17BC95: #17BC95;
+
+$co02AD8F: #12b4ff;
+$coCB374E: #CB374E;
+$co0B3D34: #0B3D34;
+$co0F182D: #0F182D;
+$coE7EEFF: #E7EEFF;
+$co0A1121: #0A1121;
+$co9FA9C0: #9FA9C0;
+$co232F49: #232F49;
+$coffffff: #ffffff;
+$co222E4B: #222E4B;
+$co101a30: #101a30;
+$cof8f8f8: #f8f8f8;
+$co454545: #454545;
+$co121D36: #121D36;
+$co2A303C: #2A303C;
+$co868D9A: #868D9A;
+$co191D24: #0f0770;
+$co21252F: #220A9E;
+$co94EADB: #94EADB;
+$co383E4D: #383E4D;
+$coC9CED8: #C9CED8;
+$co2E3743: #2E3743;
+$co727988: #727988;
+$coCD7728: #CD7728;
+$co312922: #312922;
+$co616A77: #616A77;
+$co363C4A: #363C4A;
+$coD7F5F0: #D7F5F0;
+$co0070F3: #0070F3;
+$co6A7B98: #6A7B98;
+$co222A37: #222A37;
+$co15171E: #15171E;
+$co292E39: #292E39;
+$co686F82: #686F82;
+$co343A47: #343A47;
+$co363E4A: #363E4A;
+$co303541: #303541;
+$co98E4DA: #98E4DA;
+$co3FCFBA: #3FCFBA;
+$co535E6D: #535E6D;
+$coA5A9B0: #A5A9B0;
+$co2B303D: #2B303D;
+$co2F3441: #2F3441;
+$coC5FAF3: #C5FAF3;
+$co2F3543: #2F3543;
+$co697080: #697080;
+$co0C0E11: #0C0E11;
+$co373D4A: #373D4A;
+$co242936: #242936;
+$co95979D: #95979D;
+$co534F4F: #534F4F;
+$co253f41: #253f41;
+$coAFB6C3: #AFB6C3;
+
+.clffffff {
+  color: $coffffff !important;
+}
+
+.clE7EEFF{
+  color: $coE7EEFF;
+}
+
+.cl5fe9ce{
+  color: $co5fe9ce;
+}
+
+.cl02AD8F{
+  color: $co02AD8F !important;
+}
+
+.clCB374E{
+  color: $coCB374E;
+}
+
+.cl9FA9C0{
+  color: $co9FA9C0;
+}
+
+.cl454545{
+  color: $co454545;
+}
+
+.cl868D9A{
+  color: $co868D9A;
+}
+
+.cl94EADB{
+  color: $co94EADB;
+}
+
+.clC9CED8{
+  color: $coC9CED8;
+}
+
+.cl727988{
+  color: $co727988;
+}
+
+.clCD7728{
+  color: $coCD7728;
+}
+
+.clD7F5F0{
+  color: $coD7F5F0;
+}
+
+.cl6A7B98{
+  color: $co6A7B98;
+}
+
+.cl98E4DA{
+  color: $co98E4DA;
+}
+
+.cl3FCFBA{
+  color: $co3FCFBA;
+}
+
+.clA5A9B0{
+  color: $coA5A9B0;
+}
+
+.clC5FAF3{
+  color: $coC5FAF3;
+}
+
+.cl697080{
+  color: $co697080;
+}
+
+.cl534F4F{
+  color: $co534F4F;
+}
+
+.clAFB6C3{
+  color: $coAFB6C3;
+}
+
+.bk0F182D{
+  background: $co0F182D;
+}
+
+.bk02AD8F{
+  background: $co02AD8F;
+}
+
+.bk0A1121{
+  background: $co0A1121;
+}
+
+.bk232F49{
+  background: $co232F49;
+}
+
+.bkffffff{
+  background: $coffffff;
+}
+
+.bk222E4B{
+  background: $co222E4B;
+}
+
+.bk101a30{
+  background: $co101a30;
+}
+
+.bkf8f8f8{
+  background: $cof8f8f8;
+}
+
+.bk2A303C{
+  background: $co2A303C;
+}
+
+.bk191D24{
+  background: $co191D24;
+}
+
+.bk21252F{
+  background: $co21252F;
+}
+
+.bk2E3743{
+  background: $co2E3743;
+}
+
+.bk312922{
+  background: $co312922;
+}
+
+.bk616A77{
+  background-color: $co616A77;
+}
+
+.bk363C4A{
+  background-color: $co363C4A;
+}
+
+.bk0070F3{
+  background-color: $co0070F3;
+}
+
+.bk868D9A{
+  background-color: $co868D9A;
+}
+
+.bk222A37{
+  background-color: $co222A37;
+}
+
+.bk15171E{
+  background-color: $co15171E;
+}
+
+.bk292E39{
+  background-color: $co292E39;
+}
+
+.bk686F82{
+  background-color: $co686F82;
+}
+
+.bk343A47{
+  background-color: $co343A47;
+}
+
+.bk383E4D{
+  background-color: $co383E4D;
+}
+
+.bk303541{
+  background-color: $co303541;
+}
+
+.bk0B3D34{
+  background-color: $co0B3D34;
+}
+
+.bk2B303D{
+  background-color: $co2B303D;
+}
+
+.bk2F3441{
+  background-color: $co2F3441;
+}
+
+.bk2F3543{
+  background-color: $co2F3543;
+}
+
+.bk373D4A{
+  background-color: $co373D4A;
+}
+
+.bk95979D{
+  background-color: $co95979D;
+}
+
+.bk253f41{
+  background-color: $co253f41;
+}
+
+.bc-868D9A{
+  border-color: $co868D9A;
+}
+
+.bc-487DC6{
+  border-color: $co487DC6;
+}
+
+.bc-3A53B8{
+  border-color: $co3A53B8;
+}
+
+.bc-1D088B{
+  border-color: $co1D088B;
+}
+
+.bc-487DC6{
+  border-color: rgba(58, 83, 184, .5);
+}
+
+.bc-02AD8F{
+  border-color: $co02AD8F;
+}
+
+.bc-co9FA9C0{
+  border-color: $co9FA9C0;
+}
+
+.bc-co0A1121{
+  border-color: $co0A1121;
+}
+
+.bc-co121D36{
+  border-color: $co121D36;
+}
+
+.bc-co383E4D{
+  border-color: $co383E4D;
+}
+
+.bc-co363E4A{
+  border-color: $co363E4A;
+}
+
+.bc-co3FCFBA{
+  border-color: $co3FCFBA;
+}
+
+.bc-co535E6D{
+  border-color: $co535E6D;
+}
+
+.bc-co0C0E11{
+  border-color: $co0C0E11;
+}
+
+.bc-co373D4A{
+  border-color: $co373D4A;
+}
+
+.bc-co02AD8F{
+  border-color: $co02AD8F;
+}
+
+.bc-co242936{
+  border-color: $co242936;
+}
+
+.bc-null{
+  border-color: transparent;
+}
+
+//字体颜色
+.cl9CC1FF {
+  color: $co9CC1FF;
+}
+
+.cl3A53B8 {
+  color: $co3A53B8;
+}
+
+.cl487DC6 {
+  color: $co487DC6;
+}
+
+.cl000f18 {
+  color: $co000f18;
+}
+
+.cl6272a1 {
+  color: $co6272a1;
+}
+
+.cl4774f9 {
+  color: $co4774f9;
+}
+
+.cldce2f2 {
+  color: $codce2f2;
+}
+
+.cl93a4da {
+  color: $co93a4da;
+}
+
+.cl606d82 {
+  color: $co606d82;
+}
+
+.cldbe4fe {
+  color: $codbe4fe;
+}
+
+.cl324170 {
+  color: $co324170;
+}
+
+.cl93a4da {
+  color: $co93a4da;
+}
+
+.cl67d852 {
+  color: $co67d852;
+}
+
+.cl606d82 {
+  color: $co606d82;
+}
+
+.cl17BC95 {
+  color: $co17BC95;
+}
+
+.clnull {
+  color: $null;
+}
+
+// 背景颜色
+.bk59 {
+  background: $co59 !important;
+}
+
+.bkCB374E {
+  background: $coCB374E;
+}
+
+.bk67d852 {
+  background: $co67d852;
+}
+
+.bk1c3385 {
+  background: $co1c3385;
+}
+
+.bk3A53B8 {
+  background: $co3A53B8;
+}
+
+.bk1D088B {
+  background: $co1D088B;
+}
+
+.bk000f18 {
+  background: $co000f18;
+}
+
+.bk1e2643 {
+  background: $co1e2643;
+}
+
+.bk151b35 {
+  background: $co151b35;
+}
+
+.bk17BC95 {
+  background: $co17BC95;
+}
+
+.bknull {
+  background: $null;
+}
+
+// 边框颜色
+.br-cl67d852 {
+  border: 1px solid $co67d852;
+}

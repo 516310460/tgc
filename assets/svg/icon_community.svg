@@ -1,0 +1,19 @@
+<svg id="icon_community" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d088b;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#12b2fd" flood-opacity="0.24"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="46" cy="46" r="46"/>
+  <image id="讨论" x="27" y="33" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAABs0lEQVRYhe3Yz4tOURjA8c/7ektCMkXJBqVsrPkDbMZKbERZT4kNU8pSKRsLpJS1oqyMsplEVvgH2MxmamQjJcY0Y/RM99Z4m3nP/TXXXbzfupt77znne37c5zn39CZmVuEILmEflrTLAD/xCq9D6BDe4WDLIhsx2cfljsgE50NoVwdEcpZCaLEbLmss9zsg8Q9joRSdExoknv/AXXzBtpptrWAHpnC0qtAZzNYUGeYevm0WblJTttCwTLCcjdaGpEZoBk+yHtVdb/mUTWJPVaHDuFlTpBTjzz7FWChFalG/xAP8KljfSdyu09GU0EV8L1Hfm6zM8apCqZ5cKFlf7MkPVJVRYIQe4hTmsH3EexF9d+IcJrZSKDhbp4Gy9BvI4k3SC6Fe14TmOiCSsxhCz7rhssZsCM1nseN/cx8v8jgUe57T+IDfLYr9wSdcwdW4kR82rGc/dmcx5U6Jym/gOVYLfiiDbM8+P3xzmK/Z9bmgyGM8wscS8iMtN2Nvoux7TONtEyI5VbJyZP5rONG0jIKpYz1PcX143tsSioSZE+spRiX+QraUUVMWJ2vBLRxrQwb+AoC4RfchKkKmAAAAAElFTkSuQmCC"/>
+</svg>

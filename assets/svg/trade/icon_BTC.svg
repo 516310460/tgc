@@ -1,0 +1,11 @@
+<svg id="icon_USD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc000;
+      }
+    </style>
+  </defs>
+  <circle id="椭圆_5" data-name="椭圆 5" class="cls-1" cx="20" cy="20" r="20"/>
+  <image id="矢量智能对象" x="12" y="8" width="17" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAZCAYAAADXPsWXAAABa0lEQVQ4jbWUPyjFURTHP0/vifIng0UGi5Q/hdH8MihlsmCymd5iUKwWGZUMBhkowyvjW15S1BtIGZSI1YTEQEfn5/50O67Xeze+de/9fe/v3O895557LiJi27x8Yc/N5x0/CdgmrYGfaHUzTW5scWNzwDZBSKRu/IlIRkQqQM6b6wS6gCfgFmgHeoA34Aq4B7aB4vcKicd6erDazYhIKVJqUkUyiRJkgGNgzAvrElhOwwYGgEWgzbMpAeN+vlfMLuXAnZg2Ng/2njzXkIhTwxuJSPGE4RfaZass6AYK7lvPZAiYMzZbSe/FW4jIzoaurebJDXDocfWmH8h7cwtAuZonxV+qdsnYHcXUzq7ho75IjtrQZ3jWP5MR81MLb9jjuuEgsGrszjTGXhFZE5GPiOwoZlVkP3KxYjNN8Ttw57mnBdYBvADXgfcE96bsAAcJC6QwTXVagFOOn9fzUNeNfxN5NKO+tYrXoALwCUtPUkN6GCLXAAAAAElFTkSuQmCC"/>
+</svg>

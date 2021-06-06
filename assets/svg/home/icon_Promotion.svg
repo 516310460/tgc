@@ -1,0 +1,19 @@
+<svg id="icon_Promotion" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d088b;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#12b2fd" flood-opacity="0.24"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="46" cy="46" r="46"/>
+  <image id="申请的数据" x="28" y="30" width="36" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAlCAYAAAAqXEs9AAACw0lEQVRYhc2Y24vNURTHP+fnNO7SyIO7lKJIlElpEjEjzHlwyS0Prg/8A+LFkyfliReFNJFrMSOijNsTRfHgQaSJeFAmlOsZWrV+2ra9z96/c37OmW+dTnv91m+fz2/ttdbev1No7v6FobXARmA6MBjoJx8lwE/gFXAeuAB8ds2cAg0BHgCzcwII6S3QCryw/RL9flJHGNE4/c1hLqB0ieotgdnlAtrRAJhUu22DAE1qGA5MAIaahsTvWzc12UDlBsKU7dYyECL0lwYcUDHS7wjwPsO8w4GtwJi8gd4BbcDTrBMDB4FHwNQsN4WW7HSVMKIPwJmAz0ibIQRUawcPRec18DULUAdwGBiVEURSYY9uSz59AhYA38zrsts/A2YEfqAPeKMPUAj4/gCatQv79BGYC7x0PUmMRusnD8nRo90FkwUoL0lkFgHPffPVuzHO88D82c9iI9SpoS5aOVTWh2oBFgbmaHGdEIFDwGbgOLA/BNSnlXY/AvqY52z1HVgGPLTsg4BTwCYd7xPf0JJ1RsKIdtolrGPp9Hcd/hLdOZbtQAhofCSMaKyjJcgy3bFsiUZmJjAL6DKu9YeAVgt1RPJPA3qsw9Z8Pcjbugds0bccaSUl4KL6FGIbo7T4Xl13O6mbtHpMe8l68lQ3gaXGuFffdqQdXJV7Yqtson5itMYDc8OCEU3WHUAqdCX/oQ/JEl9y2K9rpbk0wtyE8+zUqzTstq7pVuFTq1nJeQGt98DcAhbHwpDTksnb5zmHvTsA0+bqcbVGaLu2fFtdaZJ6tFwr7h8Va4DaBpxw2K9oPvkkUbvtu5hU+R/QXg/MZd37fFpSCSYFelwF0ElrXNA8KlW4p127eUUJ0NEqgKZYY5lnXQX/FdoYg0p0Jz6bEciVd188vhI16UWZJt6gb6ZyNolJcvuYIZJ9yTwdiI/M56wmp4DfVzd/3X0VIIkAAAAASUVORK5CYII="/>
+</svg>

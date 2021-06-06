@@ -1,0 +1,156 @@
+{
+  "id": "2536049",
+  "name": "通天塔",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9204072",
+      "name": "eth",
+      "font_class": "eth",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "11555596",
+      "name": "比特币",
+      "font_class": "bitebi",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "16663597",
+      "name": "USDT-omni",
+      "font_class": "USDT-omni",
+      "unicode": "ec81",
+      "unicode_decimal": 60545
+    },
+    {
+      "icon_id": "17971520",
+      "name": "FIL",
+      "font_class": "FIL",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "5380120",
+      "name": "网络",
+      "font_class": "wangluo",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "14457566",
+      "name": "我 的 (1)",
+      "font_class": "wode4",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5602318",
+      "name": "下 拉",
+      "font_class": "angle-down",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10885614",
+      "name": "BTC",
+      "font_class": "BTC",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "20465835",
+      "name": "ETH",
+      "font_class": "ETH98e4444a",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5389106",
+      "name": "塔",
+      "font_class": "ta",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6410869",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "eb9b",
+      "unicode_decimal": 60315
+    },
+    {
+      "icon_id": "9186970",
+      "name": "交易 (1)",
+      "font_class": "jiaoyi",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "11711711",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "21150980",
+      "name": "挖矿",
+      "font_class": "wakuang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "13516548",
+      "name": "返 回",
+      "font_class": "fanhui",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "1856048",
+      "name": "邀请好友",
+      "font_class": "yaoqinghaoyou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4365050",
+      "name": "申请",
+      "font_class": "shenqing",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5613736",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10986302",
+      "name": "生态",
+      "font_class": "shengtai",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "13194674",
+      "name": "数据",
+      "font_class": "shuju1",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "17605471",
+      "name": "通知",
+      "font_class": "tongzhi",
+      "unicode": "e816",
+      "unicode_decimal": 59414
+    }
+  ]
+}

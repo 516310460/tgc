@@ -1,0 +1,8 @@
+{
+    "svn.ignoreMissingSvnWarning": true,
+    "i18n-ally.localesPaths": [
+      "locales"
+    ],
+    "vue-i18n-ally.localesPaths": "locales",
+    "git.ignoreLimitWarning": true
+}

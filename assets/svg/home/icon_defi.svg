@@ -1,0 +1,19 @@
+<svg id="icon_defi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d088b;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#12b2fd" flood-opacity="0.24"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="46" cy="46" r="46"/>
+  <image id="数据_1_" data-name="数据 (1)" x="28" y="30" width="37" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAADAElEQVRYhe2YW4hNURjHf2cYEZNIeRC5Kw+k3B5MJI0wY5Tri5RbhFDkVpJrLnnQJMKIPGAkcgjzoNziiY4ktxGGGPEwk5Lb6Jv+e1rtzrH3OWcf5zz416kza69Z+3e+9V3Wt2Jd481kqe7ARmAK8A04qE/GygZqHFAJLAI6+p49BQ4D54HX6S6cCZTBrAUmh5j7E6gC9gNvw76gKOS8GLAcSAA3QgKZ2gKrgFfAJaAs1MsCLDUQqACWAP1DggTpKnAKuAB8TQeqN7ABWBwRSDJ9BHYA1X44//ZNA67L3LkEQlF7QO865u6EZ6nhwFFgaI5BgmRwCz1LlRQAEB6DB2UR1Q1YD3zOA8xtYDYwwoPqBxQLZrci7lCqyIhYTxTZpcBZLV1iUA+AFyoTpi/AUqCvHDEXqgcWAIOV+T3tBeoM6hfQC4gDl4GZmtAArFQQVEUE8wZYod2p1lgHYBPwHFhjbmTRZ9Q9fP98DdgK3HXGhgC70sjmrj4BR4BtKtqmdsAcYDvQ05nbmKrMTATuKABGaSyhLR4GXEkDyH5IH1nDAzJr1QEnfECmWFDts+J7D6hx6tZDwU3VdidTs4JmkI41XtAsA+7LV/2706qwBXmGtvS4k8+swJbrWcKZWyMHtvTyTGPlmmO+OTLoZal8KkgXgdUqEZ5KFbmPnTELmi2CDKumsJbyq1LR4pamWw6QJcJa5Z50gFqUKZSpjXKN+dh0Z/wccBqYkOnC2UC5mq/vMR9gXqEanO/vsl0sKqisWyJXUUFFqv9QYVWwUJ0LgMNVsUF9KByeFrU3qDHAOuBHAQBZdagoUlO4BxigCv87DzD1Om/ZWS3uOrrdjsxS43DmH8F812WJHQJ3eoPJou+ljqllOYRr1NHYuuJ9up1p1d9SQq3gJqkvi0LmtyflKptTXQ+FyVN2S2IHuPHAoyzAqmWZeb4CnhGUJ2sirKOZq3O2q07OH118z8wyY3X2shYrUJlkdLtbGq2rIvO/JrVQnt5rzLbcGg+zzM3QqwN/ACT7pC8aUOEsAAAAAElFTkSuQmCC"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg id="icon_invitation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d088b;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#12b2fd" flood-opacity="0.24"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="46" cy="46" r="46"/>
+  <image id="邀请好友" x="27" y="29" width="38" height="38" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAC8UlEQVRYhbWYaYhOURjHf3PtUpgYZY+sGRnjg/JFfDBlbFk/zEdJxof5YEmUpZRIoSxDKcoSvtgmpJQQsmZJljLKZGSZYsbyZl6dt+eO43bfueece95/vd17z/s8T7/O8pznnKLiC1ks1ROYD0wCSoG+wDfgLXALuAnctQ0alS3YYmAfUJxgp2yq04AFFrb7gZMGUEorgMdAv0KDrQaWW8YeDzwAujhwGYFNAba7BAf6AztdHE3m2DtgkBPWPw0E3ts4JPXYWA9QSmtsHZLASt1Z/tN0W4cksBHpmXIaYLsIksCcVlSMOgOdfIJ98gT2HWixcUgCe5aOp00q2bbaOCSBPU/PlNNRW4cksAbgqjtPTq+AE7ZOJpm/yo2nTauAP7ZOJmCNwAxHKLWVnXNxNN3ErwCjgDuG9h+AecBaFygbMKVuwEdD22bgtyNTTiZgs4BrwCN5N9Fw4CJQDywDOtqCtVddqBL6GDDTNmiM6qUcv2/qkK/HBksQH1BKQ+QcsCQN2ATgpQyHTwWSz7a6gPUGLnncvKNSqeOriWF0Ul5Pc4BoRzeAClmtStOkFGqSKdPQHth6YFwBoNTQbQBKgN3AbDmLhsoAl4Hj+talr8oWyVU+dRaYC5QD9wzibgY2oc2xdQWAqheoyTFQP4GDwOtI+0bp3VyPqcryC9DDM9hKYC/wBhgW+e80sAioBM7H+E4MZIP2DZUVqLIYKKVf8uyQx79aTf4xnqHQMnxNpP2zTJ8wZWTkXZVFfTS7CgU2sgBgL+RZrrXVyKrUVafdhYwGnkimKAk8HtGS1Cq9VaQtukB7z8gUUMoGkZziS+H0eKrF2yMJVqWlA9JWKd/NskLDI15TIGc+3yqTeDsicbtqP6T31PbXPWJXF6Qt6PJIxV0qi6AxxiQcvh95/GuVwRZtbH3qkFxDxZU6c4DDwK6Y/7YBt8MtaSgwVZ6+1As4AjwEFgKnDOLWhheELpfDrlKpQw3vgpiySlUfqgfP5L6Av0+ZihIJMfrcAAAAAElFTkSuQmCC"/>
+</svg>

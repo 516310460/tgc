@@ -1,0 +1,19 @@
+<svg id="icon_ecology" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d088b;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="92" height="92" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="6" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#12b2fd" flood-opacity="0.24"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="椭圆_1" data-name="椭圆 1" class="cls-1" cx="46" cy="46" r="46"/>
+  <image id="生态" x="26" y="28" width="40" height="41" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAApCAYAAABHomvIAAAC9klEQVRYhcWYW4hNURjHf3MctwlpMjEYT+4aSpQ0T0gjomZKkQe5NEkmybjkQSN5EG8e5IHk9jBmlJlMcinxZDTJi0uS4xpTlFskRp++bfbZ9j5rr73X5l+79jn7W9/6tfba67uUVXT2EaJRwAZgCTAVGAwUgG6gDegKG5SFwgBbgK3AiBLzXQL2Anf+NWAnsNRifD1wwT1Wv3K++y5LOFE7MC8LME8e4CagLqGPW8AQt1j9EsBBwP4UPgYAK12DeRLAZUBFSj8b3SEVK5fi1fpVC4x0SqYSwAmOfE105KdIAvjTka+vjvwUSQAfOPDzHXjikOuPBLDdgR85Q784YipSXs+xh8CUFH6OJhw3F1gLzAB+AJeBM8BLz8ALdQ3A+YSTvAWqEuzls8CqkP9luxwGduOLJJKhnEgI2JoAri0CTjQQ2BUEFK0DjiUALFja12mSYdIBYHouYNQIrAHeWExou3c3W9g2RiWsQ4H5wAKgBigHXuk1RldguNp+BobFnLDOMtk9FwVoUiWwA9iudseB9YYx9bpfg2+tlFrzSeiAXqBZJ9um+1dW9BBw22c3B5ilpUNDgnmeJV1BvwqBeN4DvAeqgckpfU9KuoJ+7QFO+X7PDjyXPXpR65dvwExgTGC9K2/msYsVHAe8CPzXrfvtEXATeBd4XqXn3JYInzuBg2ioS6vgIS2THjH4fA00AR1aB8nJ0Kch7jRw1zN0Abg8cN9hMfaKXpGy+eTDlNM6WnTVEi72BGkk9cxoHb/PNZwLQK8avK4fg3OlAZQcsEbvWwy2iWULKAX6Cj2MJbHwZJNcWCnuVyzdrpOaAVeGPC/7n4DTgBsRYJ4WOiq+/pIpkuS1Wqs2+JFIMVZDmVOZ9mBTDDi0ddLsGo4YgDZtkdqULKEyAdq01cods/2WCdCmnZFZ66OUrln46skC0PQVS3PyKTDe4KdXu1sf3OKZV1DaEYuBTwa7RVnAieKEuvtaekoi+Rz4qJckndJHkaLoXhZwAL8A7IyKV+v82IAAAAAASUVORK5CYII="/>
+</svg>

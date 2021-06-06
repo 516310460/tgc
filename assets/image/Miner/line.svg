@@ -1,0 +1,19 @@
+<svg id="line1_拷贝_2" data-name="line1 拷贝 2" xmlns="http://www.w3.org/2000/svg" width="193" height="3" viewBox="0 0 193 3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #487dc6;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #12b4ff;
+      }
+    </style>
+  </defs>
+  <path id="形状_5" data-name="形状 5" class="cls-1" d="M36,641v-1H228v1H36Z" transform="translate(-35.5 -639)"/>
+  <rect id="圆角矩形_2" data-name="圆角矩形 2" class="cls-2" x="0.5" width="8" height="3" rx="1.5" ry="1.5"/>
+  <rect id="圆角矩形_2_拷贝" data-name="圆角矩形 2 拷贝" class="cls-2" x="184.5" width="8" height="3" rx="1.5" ry="1.5"/>
+</svg>
