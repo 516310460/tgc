@@ -126,7 +126,7 @@ export default {
         "username": "",// "用户名"
         "password": "",// "登录密码"
         "mnemonic": "",// "助记词"
-        "referralCode": this.$route.query.referralCode || "000000",// "邀请码"
+        "referralCode": this.$route.query.referralCode,// "邀请码"
       }
     }
   },

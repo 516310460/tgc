@@ -1017,7 +1017,7 @@ export default {
       ReadShow: false,
       oid: "",
       exchangeRateData: 0,
-      timer: null
+      timer: null,
     };
   },
   async asyncData ({ store, params, redirect, error }) {
@@ -1032,9 +1032,6 @@ export default {
   },
   computed: {
     ...mapState(['locale', 'token'])
-  },
-  destroyed () {
-    clearInterval(this.timer)
   },
   created () {
     this.HashInit()
@@ -1052,7 +1049,6 @@ export default {
       this.orderList(2)
       this.exchangeRate()
       clearInterval(this.timer)
-      this.timer = null
       this.timer = setInterval(() => {
         this.orderDepth()
       }, 3000)
@@ -2419,6 +2415,7 @@ export default {
   beforeDestroy () { },
   //离开当前页面就显示底部
   destroyed () {
+    clearInterval(this.timer)
     clearInterval(this.timeInterval);
     if (this.ws) {
       this.ws.close();
