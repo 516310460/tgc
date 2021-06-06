@@ -1,0 +1,20 @@
+[
+  {
+    "name": "lang",
+    "path": "/:lang",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/tgc/pages/_lang/index.vue",
+    "chunkName": "pages/_lang/index"
+  },
+  {
+    "name": "lang-download",
+    "path": "/:lang?/download",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/tgc/pages/_lang/download.vue",
+    "chunkName": "pages/_lang/download"
+  },
+  {
+    "name": "lang-RegDownload",
+    "path": "/:lang?/RegDownload",
+    "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/tgc/pages/_lang/RegDownload.vue",
+    "chunkName": "pages/_lang/RegDownload"
+  }
+]

@@ -14,7 +14,7 @@
           <img
             class="w-1"
             v-clipboard:copy="regParams.mnemonic"
-            v-clipboard:success="$commonFn.onCopy"
+            v-clipboard:success="onCopy"
             src="~/assets/svg/icon_copy.svg"
             alt=""
           >
@@ -173,6 +173,9 @@ export default {
         }
       })
     },
+    onCopy () {
+      this.$commonFn.onCopy()
+    }
   },
 }
 </script>

@@ -133,10 +133,14 @@ module.exports = {
       src: "~plugins/GlobalComponents",
       ssr: false
     },
+    {
+      src: "~plugins/commonFn",
+      ssr: false
+    },
     "~plugins/lodash",
     "~plugins/i18n",
     "~plugins/filters",
-    "~plugins/commonFn",
+    // "~plugins/commonFn",
     "~plugins/Calculation",
     "~plugins/Bus",
     "~plugins/ResponseErrMsg",

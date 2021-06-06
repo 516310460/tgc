@@ -16,152 +16,6 @@
       :class="{ 'coinpool-wap-Content': tabbarState }"
       v-else
     />
-
-    <van-tabbar
-      v-if="tabbarState"
-      class="coinpool-wap-Tabbar bk21252F flex items-center justify-between px-1 fixed w-full z-10 transparent"
-      @change="tabbarChange(pageActive)"
-      v-model="pageActive"
-    >
-      <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <!-- <i
-            :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-            class="iconfont icon-shouye fs40"
-          ></i> -->
-          <img
-            v-show="props.active"
-            class="wh04"
-            src="~/assets/img/icon_shouye2.png"
-            alt=""
-          >
-          <img
-            v-show="!props.active"
-            class="wh04"
-            src="~/assets/img/icon_shouye1.png"
-            alt=""
-          >
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-        >首页</span>
-      </van-tabbar-item>
-      <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <!-- <i
-            :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-            class="iconfont icon-ta fs40"
-          ></i> -->
-          <img
-            v-show="props.active"
-            class="wh04"
-            src="~/assets/img/icon_ta2.png"
-            alt=""
-          >
-          <img
-            v-show="!props.active"
-            class="wh04"
-            src="~/assets/img/icon_ta1.png"
-            alt=""
-          >
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-        >闯关</span>
-      </van-tabbar-item>
-      <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <!-- <i
-            :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-            class="iconfont icon-jiaoyi fs40"
-          ></i> -->
-          <img
-            v-show="props.active"
-            class="wh04"
-            src="~/assets/img/icon_jiaoyi2.png"
-            alt=""
-          >
-          <img
-            v-show="!props.active"
-            class="wh04"
-            src="~/assets/img/icon_jiaoyi1.png"
-            alt=""
-          >
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-        >交易</span>
-      </van-tabbar-item>
-      <!-- <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <img class="wh04" :src="props.active ? '~/assets/svg/contract-1.svg' : '~/assets/svg/contract.svg'" alt="">
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-          >合约</span
-        >
-      </van-tabbar-item> -->
-      <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <!-- <i
-            :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-            class="iconfont icon-wakuang fs40"
-          ></i> -->
-          <img
-            v-show="props.active"
-            class="wh04"
-            src="~/assets/img/icon_kuanggong2.png"
-            alt=""
-          >
-          <img
-            v-show="!props.active"
-            class="wh04"
-            src="~/assets/img/icon_kuanggong1.png"
-            alt=""
-          >
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-        >矿工</span>
-      </van-tabbar-item>
-      <van-tabbar-item class="fs20">
-        <template #icon="props">
-          <!-- <i
-            :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-            class="iconfont icon-wode fs40"
-          ></i> -->
-          <img
-            v-show="props.active"
-            class="wh04"
-            src="~/assets/img/icon_me2.png"
-            alt=""
-          >
-          <img
-            v-show="!props.active"
-            class="wh04"
-            src="~/assets/img/icon_me1.png"
-            alt=""
-          >
-        </template>
-        <span
-          slot-scope="props"
-          :class="props.active ? 'cl02AD8F' : 'cl3A53B8'"
-        >资产</span>
-      </van-tabbar-item>
-    </van-tabbar>
-
-    <audio
-      src="/audio/16sucai_201604121537.wav"
-      id="myaudio"
-      controls="controls"
-      loop="true"
-      hidden="true"
-    ></audio>
   </div>
 </template>
 
@@ -420,48 +274,48 @@ export default {
   },
   mounted () {
     this.$nextTick(async () => {
-      this.init();
+      // this.init();
 
-      // APP
-      if (window.plus) {
-        this.plusReady();
-      } else {
-        document.addEventListener("plusready", this.plusReady(), false);
-      }
+      // // APP
+      // if (window.plus) {
+      //   this.plusReady();
+      // } else {
+      //   document.addEventListener("plusready", this.plusReady(), false);
+      // }
 
-      // 判断token是否存在 存在就去获取用户信息
-      if (
-        !location.pathname.includes("/activity/BTChalved/enter") &&
-        !location.pathname.includes("/activity/BTChalved/waitAward") &&
-        this.$store.state.token
-      ) {
-        let getAccountInfo = await this.$api.personCenter.getAccountInfo();
-        if (getAccountInfo.data.code == 200) {
-          //设置用户信息
-          this.$store.commit("SET_USERINFO", getAccountInfo.data.data);
-        }
-      }
+      // // 判断token是否存在 存在就去获取用户信息
+      // if (
+      //   !location.pathname.includes("/activity/BTChalved/enter") &&
+      //   !location.pathname.includes("/activity/BTChalved/waitAward") &&
+      //   this.$store.state.token
+      // ) {
+      //   let getAccountInfo = await this.$api.personCenter.getAccountInfo();
+      //   if (getAccountInfo.data.code == 200) {
+      //     //设置用户信息
+      //     this.$store.commit("SET_USERINFO", getAccountInfo.data.data);
+      //   }
+      // }
 
-      // 建立websocket连接..
-      this.$bus.on("initWebsocket", () => {
-        this.init();
-      });
+      // // 建立websocket连接..
+      // this.$bus.on("initWebsocket", () => {
+      //   this.init();
+      // });
 
-      // 取消websocket连接..
-      this.$bus.on("cancelWebsocket", () => {
-        this.WSockets.close();
-      });
+      // // 取消websocket连接..
+      // this.$bus.on("cancelWebsocket", () => {
+      //   this.WSockets.close();
+      // });
 
-      // 获得消息..
-      this.$bus.on("changeInfoNum", () => {
-        this.$store.state.token && this.getCountNotRead();
-      });
+      // // 获得消息..
+      // this.$bus.on("changeInfoNum", () => {
+      //   this.$store.state.token && this.getCountNotRead();
+      // });
 
-      // 清空消息..
-      this.$bus.on("clearInfoNum", () => {
-        this.infoNum = "";
-        this.$store.commit("SET_ALLINFONUM", 0);
-      });
+      // // 清空消息..
+      // this.$bus.on("clearInfoNum", () => {
+      //   this.infoNum = "";
+      //   this.$store.commit("SET_ALLINFONUM", 0);
+      // });
     });
   },
   methods: {

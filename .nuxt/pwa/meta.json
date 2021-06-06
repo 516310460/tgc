@@ -1,0 +1,78 @@
+{
+  "title": "BuyBit-H5",
+  "meta": [
+    {
+      "hid": "charset",
+      "charset": "utf-8"
+    },
+    {
+      "hid": "viewport",
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1"
+    },
+    {
+      "hid": "mobile-web-app-capable",
+      "name": "mobile-web-app-capable",
+      "content": "yes"
+    },
+    {
+      "hid": "apple-mobile-web-app-title",
+      "name": "apple-mobile-web-app-title",
+      "content": "BuyBit-H5"
+    },
+    {
+      "hid": "author",
+      "name": "author",
+      "content": "516310460@qq.com"
+    },
+    {
+      "hid": "description",
+      "name": "description",
+      "content": "全球最具影响力的矿机算力交易平台，全球首创矿机算力交易平台，全球首家矿机算力交易平台，全球最好最优质的数字货币交易交易平台"
+    },
+    {
+      "hid": "theme-color",
+      "name": "theme-color",
+      "content": "#02AD8F"
+    },
+    {
+      "hid": "og:type",
+      "name": "og:type",
+      "property": "og:type",
+      "content": "website"
+    },
+    {
+      "hid": "og:title",
+      "name": "og:title",
+      "property": "og:title",
+      "content": "BuyBit-H5"
+    },
+    {
+      "hid": "og:site_name",
+      "name": "og:site_name",
+      "property": "og:site_name",
+      "content": "BuyBit-H5"
+    },
+    {
+      "hid": "og:description",
+      "name": "og:description",
+      "property": "og:description",
+      "content": "全球最具影响力的矿机算力交易平台，全球首创矿机算力交易平台，全球首家矿机算力交易平台，全球最好最优质的数字货币交易交易平台"
+    }
+  ],
+  "link": [
+    {
+      "hid": "shortcut-icon",
+      "rel": "shortcut icon",
+      "href": "/favicon.ico"
+    },
+    {
+      "rel": "manifest",
+      "href": "/_nuxt/manifest.239ce836.json",
+      "hid": "manifest"
+    }
+  ],
+  "htmlAttrs": {
+    "lang": "zh"
+  }
+}

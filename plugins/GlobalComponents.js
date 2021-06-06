@@ -8,6 +8,7 @@ Vue.component('QrcodeVue', QrcodeVue)
 import VueVirtualScroller from 'vue-virtual-scroller'
 Vue.use(VueVirtualScroller);
 
+
 //自动注册组件
 const requireComponent = require.context(
   '../components',
