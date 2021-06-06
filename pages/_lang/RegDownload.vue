@@ -74,7 +74,7 @@
         </van-field>
 
         <div class="flex items-center justify-between fs24 mt-2 cl02AD8F">
-          <span>推荐人ID (选填)</span>
+          <span>推荐人ID (必填)</span>
         </div>
         <van-field
           class="mt01 bk21252F input-label input-label-Login font-semibold fs28 rounded-sm"
